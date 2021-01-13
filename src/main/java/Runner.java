@@ -4,7 +4,7 @@ import main.java.service.BlogPostsService;
 import main.java.model.Users;
 import org.springframework.web.client.HttpClientErrorException;
 
-public class Main {
+public class Runner {
 
     public static void printResults() {
         try {
@@ -24,7 +24,7 @@ public class Main {
         }
     }
 
-    public static void main (String[] args){
+    public static void main(String[] args) {
         printResults();
     }
 }

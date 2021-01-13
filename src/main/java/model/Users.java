@@ -36,7 +36,8 @@ public class Users {
 
     @Override
     public String toString() {
-        return "id = " + id + "\n" +
+        return '\n' + "User info: " + '\n' +
+                "id = " + id + '\n' +
                 "name = " + name + '\n' +
                 "username = " + username + '\n' +
                 "email = " + email + '\n' +

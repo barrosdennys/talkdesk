@@ -1,0 +1,28 @@
+Take Home Test instructions
+
+Technlogies used:
+- Java
+- Spring Boot
+- JUnit
+- Used a Macbook (Catalina 10.15.7)
+- IntelliJ
+
+Requirements:
+
+1) Maven needs to be installed
+
+How to run it (using IDE):
+
+1) Import the project into preferred choosen IDE 
+2) Find the pom.xml file > right click > Maven > Reload projects (it will download and configure all needed dependencies)
+3) To run the feature itself, go to src > main > java > Runner.java and run it
+4) To run the tests, go to src > test > java > BlogPostsServiceTest.java and run it
+
+If you want to run it via command line:
+
+1) Go to the source project folder via commandline
+2) mvn spring-boot:run - to run the feature
+3) sh runTests.sh - to run the tests
+
+The report of the test execution will be saved at <src_folder>/testReport/surefire-report.html
+

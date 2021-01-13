@@ -9,6 +9,13 @@ public class GeoLocation {
         return lng;
     }
 
+    @Override
+    public String toString() {
+        return "GeoLocation: " + '\n' +
+                "lat= " + lat + '\'' +
+                "lng= " + lng + '\'';
+    }
+
     private String lat;
     private String lng;
 }

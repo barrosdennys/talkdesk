@@ -1,4 +1,4 @@
-package main.java.tests;
+package test.java;
 
 import main.java.utils.Constants;
 import org.junit.jupiter.api.Assertions;
